@@ -45,7 +45,7 @@ console.log(email)
 function EmailGenerator(lastName, firstName) {
     firstName = firstName.trim().toLowerCase()
     lastName = lastName.trim().toLowerCase()
-    let arr = '@mail.ru';
+    let arr = '@email.com';
     let email = `${firstName}.${lastName}.${arr}`
     return email
 }
